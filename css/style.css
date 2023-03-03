@@ -276,10 +276,15 @@ html {
   color: #9541ba;
 }
 
+.sales__swiper {
+  display: flex;
+  width: 100%;
+}
+
 /* CONTACTS */
 .contacts {
   position: absolute;
-  left: 180px;
+  left: 200px;
   top: 2380px;
   display: flex;
   flex-direction: column;
