@@ -90,6 +90,14 @@ html {
   row-gap: 25px;
 }
 
+/* MAIN */
+.main {
+  display: flex;
+  width: 100%;
+  background-image: url(/img/image/Background.svg) no-repeat center;
+  height: auto;
+}
+
 /* SERVICES */
 
 .services {
