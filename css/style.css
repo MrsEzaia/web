@@ -29,7 +29,8 @@ html {
 
 .header__list {
   display: flex;
-  justify-content: space-around;
+  padding: 0 16px;
+  justify-content: space-between;
   vertical-align: middle;
 }
 
