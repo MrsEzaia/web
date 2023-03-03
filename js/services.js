@@ -26,6 +26,6 @@ const swiper2 = new Swiper("#swiper2", {
   },
   spaceBetween: 40,
   slidesPerView: "auto",
-  slidesOffsetAfter: 70,
+  slidesOffsetAfter: 40,
   centerSlides: true,
 });
