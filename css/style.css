@@ -271,7 +271,7 @@ html {
 .contacts {
   position: absolute;
   left: 180px;
-  top: 2400px;
+  top: 2450px;
   display: flex;
   flex-direction: column;
   width: 94.5px;
