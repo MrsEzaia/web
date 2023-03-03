@@ -24,7 +24,7 @@ const swiper2 = new Swiper("#swiper2", {
     el: ".swiper-pagination",
     clickable: true,
   },
-  spaceBetween: 60,
+  spaceBetween: 80,
   slidesPerView: "auto",
   slidesOffsetAfter: 70,
   centerSlides: true,
