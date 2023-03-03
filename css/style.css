@@ -122,7 +122,7 @@ html {
 }
 
 #swiper2 {
-  max-width: 90%;
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -156,6 +156,14 @@ html {
 }
 
 .swiper-pagination {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: row;
+  column-gap: 12px;
+}
+
+.swiper-pagination__sales {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -249,6 +257,7 @@ html {
 
 /* SALES */
 .sales {
+  width: 100%;
   display: flex;
   flex-direction: column;
   row-gap: 15px;
@@ -271,7 +280,7 @@ html {
 .contacts {
   position: absolute;
   left: 180px;
-  top: 2450px;
+  top: 2380px;
   display: flex;
   flex-direction: column;
   width: 94.5px;
