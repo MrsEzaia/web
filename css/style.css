@@ -360,6 +360,7 @@ html {
 
 .contact {
   display: flex;
+  width: 100px;
   font-family: "Oswald";
   font-style: normal;
   font-weight: 200;
