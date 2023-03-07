@@ -93,7 +93,6 @@ html {
 /* MAIN */
 .main {
   display: flex;
-  width: 100%;
   background-image: url("/img/image/Background.svg") no-repeat center;
   height: auto;
 }
@@ -101,11 +100,10 @@ html {
 /* SERVICES */
 
 .services {
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 20px;
+  row-gap: 20px;
 }
 
 .services__title {
@@ -123,6 +121,7 @@ html {
 
 #swiper1 {
   max-width: 100%;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -142,6 +141,7 @@ html {
 .swiper-wrapper {
   width: 100%;
   height: auto;
+  height: auto;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -151,11 +151,14 @@ html {
 .swiper-slide {
   display: flex;
   width: 100%;
+  height: auto;
 }
 
 .swiper__img {
   display: flex;
   width: 100%;
+  height: auto;
+  min-width: 320px;
 }
 
 .swiper__img-sale {
