@@ -210,7 +210,11 @@ html {
   background: #8243b4;
 }
 
-.swiper-pagination__bullet:hover {
+.swiper-pagination__bullet__services:hover {
+  background: rgba(130, 67, 180, 0.46) !important;
+}
+
+.swiper-pagination__bullet__sales:hover {
   background: rgba(130, 67, 180, 0.46) !important;
 }
 
