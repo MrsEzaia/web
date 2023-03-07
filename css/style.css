@@ -310,10 +310,17 @@ html {
 }
 
 /* CONTACTS */
+.map {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+
 .contacts {
   position: absolute;
-  left: 200px;
-  top: 2380px;
+  left: 230px;
+  top: -40px;
   display: flex;
   flex-direction: column;
   width: 94.5px;
