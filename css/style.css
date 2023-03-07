@@ -318,15 +318,16 @@ html {
 
 .contacts {
   position: absolute;
-  left: 230px;
+  left: 200px;
   top: -40px;
   display: flex;
   flex-direction: column;
-  width: 94.5px;
-  height: 128.5px;
+  vertical-align: middle;
+  width: 120px;
+  height: 150px;
 
   background: #9541ba;
-  padding: 2px 8px;
+  padding: 5px 8px;
 }
 
 .contacts__title {
@@ -342,7 +343,7 @@ html {
 .contact__list {
   display: flex;
   flex-direction: column;
-  row-gap: 5px;
+  row-gap: 8px;
 }
 
 .contact__name {
@@ -351,8 +352,8 @@ html {
   font-family: "Oswald";
   font-style: normal;
   font-weight: 300;
-  font-size: 6px;
-  line-height: 9px;
+  font-size: 9px;
+  line-height: 10px;
 
   color: #ffffff;
 }
@@ -362,8 +363,8 @@ html {
   font-family: "Oswald";
   font-style: normal;
   font-weight: 200;
-  font-size: 6px;
-  line-height: 9px;
+  font-size: 9px;
+  line-height: 10px;
 
   color: #ffffff;
 }
@@ -373,8 +374,8 @@ html {
   font-family: "Oswald";
   font-style: normal;
   font-weight: 300;
-  font-size: 6px;
-  line-height: 9px;
+  font-size: 9px;
+  line-height: 10px;
   /* identical to box height */
 
   color: #ffffff;
@@ -386,8 +387,8 @@ html {
   font-family: "Oswald";
   font-style: normal;
   font-weight: 300;
-  font-size: 6px;
-  line-height: 9px;
+  font-size: 9px;
+  line-height: 10px;
 
   color: #ffffff;
 }
@@ -398,8 +399,8 @@ html {
   font-family: "Oswald";
   font-style: normal;
   font-weight: 200;
-  font-size: 6px;
-  line-height: 9px;
+  font-size: 9px;
+  line-height: 10px;
 
   color: #ffffff;
 }
