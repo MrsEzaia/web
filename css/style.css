@@ -182,7 +182,19 @@ html {
   column-gap: 12px;
 }
 
-.swiper-pagination-bullet {
+.swiper-pagination-bullet__services {
+  width: 7px;
+  height: 7px;
+  background: rgba(130, 67, 180, 0.46);
+  display: flex;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.swiper-pagination-bullet__sales {
   width: 7px;
   height: 7px;
   background: rgba(130, 67, 180, 0.46);
@@ -198,7 +210,11 @@ html {
   background: #8243b4;
 }
 
-.swiper-pagination__bullet:hover {
+.swiper-pagination__bullet__services:hover {
+  background: rgba(130, 67, 180, 0.46) !important;
+}
+
+.swiper-pagination__bullet__sales:hover {
   background: rgba(130, 67, 180, 0.46) !important;
 }
 
