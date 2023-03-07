@@ -167,7 +167,7 @@ html {
   min-width: 320px;
 }
 
-.swiper-pagination {
+.swiper-pagination__services {
   display: flex;
   width: 100%;
   justify-content: center;
@@ -182,7 +182,7 @@ html {
   column-gap: 12px;
 }
 
-.swiper-pagination-bullet {
+.swiper-pagination-bullet__services {
   width: 7px;
   height: 7px;
   background: rgba(130, 67, 180, 0.46);
