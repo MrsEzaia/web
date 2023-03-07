@@ -1,0 +1,122 @@
+@media (min-width: 768px) and (max-width: 1119px) {
+  /* HEADER */
+  .item__social {
+    display: flex;
+    width: auto;
+    height: 24px;
+  }
+
+  .left {
+    flex-grow: 0.5;
+  }
+
+  .right {
+    flex-grow: 0.1;
+  }
+
+  .header__item:not(:first-child):not(:nth-child(2)) {
+    display: flex;
+  }
+
+  .header__item:first-child {
+    display: none;
+  }
+
+  .item__text {
+    display: flex;
+
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 22px;
+
+    color: #9541ba;
+  }
+
+  .icon {
+    width: auto;
+    height: 24px;
+  }
+
+  /* SWIPER SERVICES*/
+  .swiper__img {
+    min-width: 700px;
+  }
+
+  /*DESCRIPTION*/
+
+  .description {
+    display: flex;
+    width: 100%;
+    row-gap: 15px;
+    flex-wrap: wrap;
+    align-items: center;
+
+    padding: 50px 0;
+  }
+
+  .description__title {
+    display: flex;
+    align-items: center;
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    color: #9541ba;
+  }
+
+  .description__list {
+    display: flex;
+    row-gap: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .description__item {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: auto;
+  }
+
+  .description__name {
+    display: flex;
+
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    color: #8243b4;
+  }
+
+  .description__img {
+    display: flex;
+    width: 250px;
+    height: auto;
+  }
+
+  .link__inst {
+    display: flex;
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    color: #8243b4;
+  }
+
+  /*MAP*/
+  .contacts {
+    left: 500px;
+    top: -40px;
+  }
+}

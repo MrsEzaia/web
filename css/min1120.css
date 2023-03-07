@@ -1,0 +1,122 @@
+@media (min-width: 1120px) {
+  /* HEADER */
+  .header__list {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .left {
+    flex-grow: 1;
+  }
+
+  .right {
+    flex-grow: 0.1;
+  }
+
+  .item__social {
+    display: flex;
+    width: auto;
+    height: 24px;
+  }
+
+  .header__item:not(:first-child):not(:nth-child(2)) {
+    display: flex;
+  }
+
+  .header__item:first-child {
+    display: none;
+  }
+
+  .item__text {
+    display: flex;
+
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 22px;
+
+    color: #9541ba;
+  }
+
+  .icon {
+    width: auto;
+    height: 30px;
+  }
+
+  .contacts {
+    left: 600px;
+    top: -40px;
+  }
+
+  .main {
+    display: flex;
+    width: 1120px;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* SWIPER*/
+  .swiper__img {
+    min-width: 550px;
+  }
+
+  /* CONTACTS */
+  .map {
+    margin-top: 90px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: relative;
+  }
+
+  .contacts {
+    width: 200px;
+    height: 450px;
+
+    left: 200px;
+    top: -102px;
+
+    background: #9541ba;
+    padding: 26px 50px;
+  }
+
+  .contacts__title {
+    font-size: 34px;
+    line-height: 50px;
+  }
+
+  .contact__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+
+  .contact__name {
+    font-size: 24px;
+    line-height: 44px;
+  }
+
+  .contact {
+    display: flex;
+    width: 150px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .regime__title {
+    font-size: 24px;
+    line-height: 44px;
+  }
+
+  .regime__name {
+    font-size: 20px;
+    line-height: 44px;
+  }
+
+  .regime__time {
+    font-size: 20px;
+    line-height: 44px;
+  }
+}
