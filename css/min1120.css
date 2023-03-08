@@ -182,10 +182,10 @@
 
   .contacts {
     width: 200px;
-    height: 450px;
+    height: 470px;
 
-    left: 200px;
-    top: -102px;
+    left: 70%;
+    top: -120px;
 
     background: #9541ba;
     padding: 26px 50px;

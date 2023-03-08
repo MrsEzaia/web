@@ -34,6 +34,33 @@ html {
   vertical-align: middle;
 }
 
+.link__icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.link__icon:hover {
+  opacity: 0.7;
+  transition-duration: 0.3s;
+  transform: rotate(1deg);
+  -webkit-transform: rotate(1deg);
+  -moz-transform: rotate(1deg);
+  -ms-transform: rotate(1deg);
+  -o-transform: rotate(1deg);
+}
+
+.icon:hover {
+  opacity: 0.7;
+  transition-duration: 0.2s;
+  transform: rotate(7deg);
+  -webkit-transform: rotate(7deg);
+  -moz-transform: rotate(7deg);
+  -ms-transform: rotate(7deg);
+  -o-transform: rotate(7deg);
+}
+
 .header__item:not(:first-child):not(:nth-child(2)) {
   display: none;
 }
@@ -48,6 +75,8 @@ html {
 
 .header__item {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   column-gap: 16px;
 }
@@ -272,6 +301,16 @@ html {
   color: #8243b4;
 }
 
+.description__link {
+  display: flex;
+  width: 200px;
+}
+
+.description__link:hover {
+  opacity: 0.7;
+  transition-duration: 0.3s;
+}
+
 /* SALES */
 .sales {
   width: 100%;
@@ -308,7 +347,7 @@ html {
 
 .contacts {
   position: absolute;
-  left: 200px;
+  left: 70%;
   top: -20px;
   display: flex;
   flex-direction: column;
@@ -358,6 +397,15 @@ html {
   line-height: 10px;
 
   color: #ffffff;
+}
+
+.contact.phone {
+  color: #e4d0ec;
+}
+
+.contact.phone:hover {
+  opacity: 0.7;
+  transition-duration: 0.3s;
 }
 
 .regime__title {

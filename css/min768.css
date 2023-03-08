@@ -1,5 +1,8 @@
 @media (min-width: 768px) and (max-width: 1119px) {
   /* HEADER */
+  .header__list {
+    padding: 15px 25px;
+  }
   .item__social {
     display: flex;
     width: auto;
@@ -155,7 +158,51 @@
 
   /*MAP*/
   .contacts {
-    left: 500px;
+    width: 170px;
+    height: 280px;
+
+    left: 70%;
     top: -40px;
+
+    background: #9541ba;
+    padding: 8px 10px;
+  }
+
+  .contacts__title {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .contact__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+
+  .contact__name {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .contact {
+    display: flex;
+    width: 150px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .regime__title {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .regime__name {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .regime__time {
+    font-size: 14px;
+    line-height: 20px;
   }
 }
