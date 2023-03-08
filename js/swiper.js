@@ -23,9 +23,9 @@ var mySwiper = new Swiper(".swiper-container", {
         className +
         '">' +
         '<svg class="fp-arc-loader" width="16" height="16" viewBox="0 0 16 16">' +
-        '<circle class="path" cx="8" cy="8" r="5.5" fill="none" transform="rotate(-90 8 8)" stroke="#FFF"' +
+        '<circle class="path" cx="8" cy="8" r="5.5" fill="none" transform="rotate(-90 8 8)" stroke="#9541ba"' +
         'stroke-opacity="1" stroke-width="1.5px"></circle>' +
-        '<circle cx="8" cy="8" r="3" fill="#FFF"></circle>' +
+        '<circle cx="8" cy="8" r="3" fill="#9541ba"></circle>' +
         "</svg></span>"
       );
     },

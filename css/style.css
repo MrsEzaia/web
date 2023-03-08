@@ -34,14 +34,6 @@ html {
   vertical-align: middle;
 }
 
-.left {
-  flex-grow: 0.4;
-}
-
-.right {
-  flex-grow: 0.1;
-}
-
 .header__item:not(:first-child):not(:nth-child(2)) {
   display: none;
 }
@@ -144,7 +136,7 @@ html {
 }
 
 .swiper-pagination-bullet {
-  background: #9541ba;
+  background: none;
 }
 .swiper-pagination-bullet-active .path {
   display: inline-block !important;
@@ -157,7 +149,6 @@ html {
 }
 .path {
   display: none;
-  fill: #9541ba;
 }
 @-webkit-keyframes dash {
   from {
@@ -308,7 +299,7 @@ html {
 .contacts {
   position: absolute;
   left: 200px;
-  top: -40px;
+  top: -20px;
   display: flex;
   flex-direction: column;
   vertical-align: middle;
