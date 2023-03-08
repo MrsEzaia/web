@@ -62,6 +62,115 @@
     min-width: 550px;
   }
 
+  .services__slide {
+    display: flex;
+    width: 700px;
+    height: auto;
+  }
+
+  /*DESCRIPTION*/
+
+  .description {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 650px;
+    row-gap: 15px;
+
+    padding: 50px 0;
+  }
+
+  .description__title {
+    display: flex;
+    align-items: center;
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    color: #9541ba;
+  }
+
+  .description__list {
+    position: relative;
+    display: flex;
+    row-gap: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .description__item {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: auto;
+  }
+
+  .description__name {
+    display: flex;
+
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    color: #8243b4;
+  }
+
+  .description__img {
+    display: flex;
+    width: 250px;
+    height: auto;
+  }
+
+  .link__inst {
+    display: flex;
+    width: 250px;
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    color: #8243b4;
+  }
+
+  .description__item.vela {
+    position: absolute;
+    left: -250px;
+  }
+
+  .description__item.brows {
+    position: absolute;
+
+    left: 50px;
+  }
+
+  .description__item.shugaring {
+    position: absolute;
+    top: 430px;
+    left: 50px;
+  }
+  .description__item.makeup {
+    position: absolute;
+
+    left: -250px;
+    top: 200px;
+  }
+
+  .description__item.inst {
+    position: absolute;
+    width: 100px;
+    display: flex;
+    top: 600px;
+    left: -250px;
+  }
+
   /* CONTACTS */
   .map {
     margin-top: 90px;

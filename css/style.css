@@ -233,7 +233,7 @@ html {
 
 .description__name {
   display: flex;
-
+  width: 150px;
   font-family: "Oswald";
   font-style: normal;
   font-weight: 300;
@@ -248,6 +248,16 @@ html {
   display: flex;
   width: 277px;
   height: auto;
+}
+
+.description__img:hover {
+  opacity: 0.5;
+  transform: rotate(1deg);
+  -webkit-transform: rotate(1deg);
+  -moz-transform: rotate(1deg);
+  -ms-transform: rotate(1deg);
+  -o-transform: rotate(1deg);
+  transition-duration: 0.3s;
 }
 
 .link__inst {
