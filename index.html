@@ -62,44 +62,42 @@
   <body>
     <div class="main">
       <div class="services">
-        <h2 class="services__title">УСЛУГИ И ЦЕНЫ</h2>
-
-        <div class="services__swiper">
-          <div id="swiper1">
-            <ul class="swiper-wrapper">
-              <li class="swiper-slide">
-                <img
-                  src="./img/image/manicure.svg"
-                  alt="#"
-                  class="swiper__img"
-                />
-              </li>
-              <li class="swiper-slide">
-                <img
-                  src="./img/image/shugaring.svg"
-                  alt="#"
-                  class="swiper__img"
-                />
-              </li>
-              <li class="swiper-slide">
-                <img
-                  src="./img/image/permanent.svg"
-                  alt="#"
-                  class="swiper__img"
-                />
-              </li>
-              <li class="swiper-slide">
-                <img src="./img/image/vela.svg" alt="#" class="swiper__img" />
-              </li>
-            </ul>
-            <ul class="swiper-pagination__services">
-              <li class="swiper-pagination-bullet__services"></li>
-              <li class="swiper-pagination-bullet__services"></li>
-              <li class="swiper-pagination-bullet__services"></li>
-              <li class="swiper-pagination-bullet__services"></li>
-            </ul>
+        <!-- partial:index.partial.html -->
+        <div class="swiper-container">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img
+                src="./img/image/manicure.svg"
+                alt=""
+                class="services__slide"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./img/image/permanent.svg"
+                alt=""
+                class="services__slide"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./img/image/shugaring.svg"
+                alt=""
+                class="services__slide"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/image/vela.svg" alt="" class="services__slide" />
+            </div>
           </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
         </div>
+        <!-- partial -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js"></script>
+        <script src="./js/swiper.js"></script>
       </div>
 
       <div class="description">
@@ -174,10 +172,10 @@
                 />
               </li>
             </ul>
-            <ul class="swiper-pagination__sales">
-              <li class="swiper-pagination-bullet__sales"></li>
-              <li class="swiper-pagination-bullet__sales"></li>
-              <li class="swiper-pagination-bullet__sales"></li>
+            <ul class="swiper-pagination">
+              <li class="swiper-pagination-bullet"></li>
+              <li class="swiper-pagination-bullet"></li>
+              <li class="swiper-pagination-bullet"></li>
             </ul>
           </div>
         </div>
