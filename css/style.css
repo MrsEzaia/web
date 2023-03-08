@@ -120,23 +120,27 @@ html {
 /* SWIPER */
 
 .swiper-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
   height: auto;
 }
 
 .services__slide {
-  width: 90%;
+  display: flex;
+  width: 280px;
   height: auto;
 }
 
 .swiper-slide {
+  display: flex;
   width: 100%;
   height: auto;
   background: none;
   /* Center slide text vertically */
   display: flex;
-  justify-content: center;
-  align-items: center;
+  align-self: center;
 }
 
 .swiper-pagination-bullet {
