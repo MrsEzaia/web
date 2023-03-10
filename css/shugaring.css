@@ -309,7 +309,7 @@ body.noscroll {
 }
 
 /* VELA */
-.lips {
+.shugaring {
   background-image: url(../img/image/backgr.svg);
   background-position: center;
   display: flex;
@@ -318,7 +318,50 @@ body.noscroll {
   align-items: center;
 }
 
-.lips__title {
+.advantage__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.advantage__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.advantage__img {
+  display: flex;
+}
+
+.advantage__name {
+  display: flex;
+
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #9541ba;
+}
+
+.advantage__text {
+  display: flex;
+
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #9541ba;
+}
+
+.shugaring__title {
   display: flex;
   font-family: "Oswald";
   font-style: normal;
@@ -327,29 +370,30 @@ body.noscroll {
   line-height: 24px;
   /* identical to box height */
 
-  color: #8b1ee1;
+  color: #9541ba;
 }
 
-.lips__list {
+.shugaring__list {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 80%;
-  row-gap: 10px;
+  row-gap: 20px;
 }
 
-.lips__item {
+.shugaring__item {
   display: flex;
   flex-direction: column;
   align-items: center;
+  row-gap: 20px;
 }
 
-.lips__img {
+.shugaring__img {
   display: flex;
   width: 90%;
 }
 
-.lips__text {
+.shugaring__text {
   display: flex;
 
   font-family: "Oswald";
@@ -361,7 +405,7 @@ body.noscroll {
   color: #000000;
 }
 
-.lips__title {
+.shugaring__title {
   display: flex;
 
   font-family: "Oswald";
@@ -371,10 +415,10 @@ body.noscroll {
   line-height: 24px;
   /* identical to box height */
 
-  color: #8b1ee1;
+  color: #9541ba;
 }
 
-.lips__title-small {
+.shugaring__title-small {
   display: flex;
   font-family: "Oswald";
   font-style: normal;
@@ -385,7 +429,7 @@ body.noscroll {
   color: #000000;
 }
 
-.lips-list {
+.shugaring-list {
   width: 100%;
   align-items: left;
   display: flex;
@@ -394,14 +438,14 @@ body.noscroll {
   row-gap: 2px;
 }
 
-.lips-style {
+.shugaring-style {
   font-family: "Oswald";
   font-style: normal;
   font-weight: 200;
   font-size: 14px;
   line-height: 21px;
 
-  color: #000000;
+  color: #9541ba;
 }
 
 /* WRITE */
