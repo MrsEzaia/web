@@ -36,7 +36,6 @@ html {
 
 /* MENU */
 .menu {
-  display: none;
   position: fixed;
   top: 0;
   left: 0px;
@@ -56,11 +55,13 @@ html {
   /*identicaltoboxheight,or150%*/
   letter-spacing: -0.2px;
   color: #1b1c21;
-  -webkit-transform: translateX(-240px);
+  -webkit-transform: translateX(-320px);
   -webkit-transition: transform 0.5s;
   -moz-transition: transform 0.5s;
   -ms-transition: transform 0.5s;
   -o-transition: transform 0.5s;
+
+  z-index: 99;
 }
 
 .menu.active {
