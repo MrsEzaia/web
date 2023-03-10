@@ -111,7 +111,7 @@ html {
 /* MAIN */
 .menu__nav {
   padding: 32px 24px;
-  flex-grow: 0.8;
+  flex-grow: 0.6;
 }
 
 .menu__nav-list {
