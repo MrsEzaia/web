@@ -39,7 +39,7 @@ html {
   position: fixed;
   top: 0;
   left: 0px;
-  width: 240px;
+  width: 320px;
   height: 100vh;
   background: #ffffff;
   box-shadow: 16px 0px 52px rgba(149, 65, 186, 0.2);
@@ -55,7 +55,7 @@ html {
   /*identicaltoboxheight,or150%*/
   letter-spacing: -0.2px;
   color: #1b1c21;
-  -webkit-transform: translateX(-320px);
+  -webkit-transform: translateX(-400px);
   -webkit-transition: transform 0.5s;
   -moz-transition: transform 0.5s;
   -ms-transition: transform 0.5s;
@@ -64,7 +64,7 @@ html {
   z-index: 99;
 }
 
-.menu.active {
+.menu.showMenu {
   display: flex;
   transform: translateX(0);
 }
