@@ -1,0 +1,539 @@
+@font-face {
+  font-family: "Oswald";
+  src: url("/fonts/Oswald-Light.ttf");
+  src: local("Oswald ExtraLight"), local("Oswald-ExtraLight"),
+    url("/fonts/Oswald-ExtraLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 200;
+}
+
+html {
+  font-family: "Oswald";
+  font-weight: 200;
+}
+
+.header {
+  max-width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 29px;
+  line-height: 43px;
+
+  color: #9541ba;
+}
+
+.header__list {
+  display: flex;
+  padding: 0 16px;
+  justify-content: space-between;
+  vertical-align: middle;
+}
+
+/* MENU */
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0px;
+  width: 320px;
+  height: 100vh;
+  background: #ffffff;
+  box-shadow: 16px 0px 52px rgba(149, 65, 186, 0.2);
+  transform: translateX(-320px);
+  transition: transform 0.5s;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-family: "TT Lakes";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /*identicaltoboxheight,or150%*/
+  letter-spacing: -0.2px;
+  color: #1b1c21;
+  -webkit-transform: translateX(-400px);
+  -webkit-transition: transform 0.5s;
+  -moz-transition: transform 0.5s;
+  -ms-transition: transform 0.5s;
+  -o-transition: transform 0.5s;
+
+  z-index: 99;
+}
+
+.menu.open {
+  transform: translateX(0);
+}
+
+.icon__burger.active {
+  opacity: 0;
+  transform: translateY(8px) rotate(45deg);
+}
+
+body.noscroll {
+  overflow: hidden;
+}
+
+.menu__header-list {
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 16.73px;
+}
+
+.menu__header-item:nth-child(1) {
+  flex-grow: 0.4;
+}
+
+.logo {
+  display: flex;
+}
+
+.btn {
+  display: flex;
+}
+
+.btn:hover {
+  opacity: 0.7;
+  transform: rotate(20deg);
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transform: rotate(20deg);
+  -moz-transform: rotate(20deg);
+  -ms-transform: rotate(20deg);
+  -o-transform: rotate(20deg);
+}
+
+.btn-img {
+  display: flex;
+  width: 20px;
+  height: 20px;
+}
+
+/* MAIN */
+.menu__nav {
+  padding: 32px 24px;
+  flex-grow: 0.6;
+}
+
+.menu__nav-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
+
+.menu__nav-item {
+  display: flex;
+}
+
+.menu__nav-link {
+  color: #9541ba;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 15px;
+}
+
+.menu__nav-link:hover {
+  color: #c197d3;
+}
+
+.menu__nav-link--active {
+  color: #c197d3;
+  flex-direction: row;
+}
+
+.menu__nav-link:hover::before {
+  color: #c197d3;
+  position: absolute;
+  content: "";
+  left: 0px;
+  width: 4px;
+  height: 40px;
+  background-color: #9541ba;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.link__icon {
+  display: flex;
+  height: 20px;
+  width: auto;
+}
+
+.link__icon:first-child {
+  display: flex;
+  height: 40px;
+  width: auto;
+}
+
+.link__text {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #9541ba;
+}
+
+.link__text:first-child {
+  display: flex;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+
+  color: #9541ba;
+}
+
+/* FOOTER */
+.menu__footer {
+  padding-left: 24px;
+}
+
+.menu__footer-list {
+  display: flex;
+}
+
+.menu__footer-item {
+  display: flex;
+}
+
+.menu__footer-phone {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #8243b4;
+}
+
+.menu__footer-phone:active {
+  color: #c197d3;
+}
+
+.menu__footer-phone:hover {
+  color: #c197d3;
+}
+
+/* NAV */
+
+.link__icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.link__icon:hover {
+  opacity: 0.7;
+  transition-duration: 0.3s;
+  transform: rotate(1deg);
+  -webkit-transform: rotate(1deg);
+  -moz-transform: rotate(1deg);
+  -ms-transform: rotate(1deg);
+  -o-transform: rotate(1deg);
+}
+
+.icon:hover {
+  opacity: 0.7;
+  transition-duration: 0.2s;
+  transform: rotate(7deg);
+  -webkit-transform: rotate(7deg);
+  -moz-transform: rotate(7deg);
+  -ms-transform: rotate(7deg);
+  -o-transform: rotate(7deg);
+}
+
+.header__item:not(:first-child):not(:nth-child(2)) {
+  display: none;
+}
+
+.icon:nth-child(2) {
+  align-content: flex-end;
+}
+
+.item__text {
+  display: none;
+}
+
+.header__item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 16px;
+}
+
+.item__social {
+  display: flex;
+  height: 55px;
+}
+
+.header__img {
+  display: flex;
+  max-width: 100%;
+}
+
+.icon {
+  width: auto;
+  height: 20px;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+}
+
+/* MAIN */
+.main {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+
+  overflow: hidden;
+  row-gap: 25px;
+}
+
+/* VELA */
+.vela {
+  background-image: url(../img/image/backgr.svg);
+  background-position: center;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.vela__title {
+  display: flex;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #8b1ee1;
+}
+
+.vela__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  row-gap: 10px;
+}
+
+.vela__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.vela__img {
+  display: flex;
+  width: 90%;
+}
+
+.vela__text {
+  display: flex;
+
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #000000;
+}
+
+.vela__title {
+  display: flex;
+
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #8b1ee1;
+}
+
+.vela__title-small {
+  display: flex;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 26px;
+
+  color: #000000;
+}
+
+.vela-list {
+  width: 100%;
+  align-items: left;
+  display: flex;
+  list-style: disc !important;
+  flex-direction: column;
+  row-gap: 2px;
+}
+
+.vela-style {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #000000;
+}
+
+/* WRITE */
+.link__write {
+  display: flex;
+
+  padding: 9px 34px;
+  border: 2px solid #9541ba;
+  border-radius: 118px;
+
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #9541ba;
+
+  cursor: pointer !important;
+}
+
+.link__write:hover {
+  background: #9541ba;
+  color: white;
+  transition-duration: 0.3s;
+  cursor: pointer !important;
+}
+
+/* CONTACTS */
+.map {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+
+.contacts {
+  position: absolute;
+  left: 70%;
+  top: -20px;
+  display: flex;
+  flex-direction: column;
+  vertical-align: middle;
+  width: 120px;
+  height: 150px;
+
+  background: #9541ba;
+  padding: 5px 8px;
+}
+
+.contacts__title {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 8px;
+  line-height: 12px;
+
+  color: #ffffff;
+}
+
+.contact__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.contact__name {
+  display: flex;
+
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 9px;
+  line-height: 10px;
+
+  color: #ffffff;
+}
+
+.contact {
+  display: flex;
+  width: 100px;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 9px;
+  line-height: 10px;
+
+  color: #ffffff;
+}
+
+.contact.phone {
+  color: #e4d0ec;
+}
+
+.contact.phone:hover {
+  opacity: 0.7;
+  transition-duration: 0.3s;
+}
+
+.regime__title {
+  display: flex;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 9px;
+  line-height: 10px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.regime__name {
+  display: flex;
+
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 9px;
+  line-height: 10px;
+
+  color: #ffffff;
+}
+
+.regime__time {
+  display: flex;
+
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 9px;
+  line-height: 10px;
+
+  color: #ffffff;
+}
