@@ -64,9 +64,17 @@ html {
   z-index: 99;
 }
 
-.menu.showMenu {
-  display: flex;
+.menu.open {
   transform: translateX(0);
+}
+
+.icon__burger.active {
+  opacity: 0;
+  transform: translateY(8px) rotate(45deg);
+}
+
+body.noscroll {
+  overflow: hidden;
 }
 
 .menu__header-list {
