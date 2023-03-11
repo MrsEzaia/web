@@ -142,24 +142,26 @@
 
   .description__item.vela {
     position: absolute;
-    left: -250px;
+    left: 15%;
+    top: 0px;
   }
 
   .description__item.brows {
     position: absolute;
 
-    left: 50px;
+    left: 55%;
+    top: -5px;
   }
 
   .description__item.shugaring {
     position: absolute;
     top: 430px;
-    left: 50px;
+    left: 55%;
   }
   .description__item.makeup {
     position: absolute;
 
-    left: -250px;
+    left: 15%;
     top: 200px;
   }
 
