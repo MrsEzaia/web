@@ -439,6 +439,7 @@ body.noscroll {
   height: auto;
   display: flex;
   position: relative;
+  overflow: hidden;
 }
 
 .contacts {
