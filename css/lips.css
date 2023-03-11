@@ -319,6 +319,7 @@ body.noscroll {
 }
 
 .lips__title {
+  text-align: center;
   display: flex;
   font-family: "Oswald";
   font-style: normal;
@@ -443,7 +444,7 @@ body.noscroll {
 
 .contacts {
   position: absolute;
-  left: 70%;
+  left: 45%;
   top: -20px;
   display: flex;
   flex-direction: column;
