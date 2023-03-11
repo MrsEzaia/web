@@ -552,7 +552,7 @@ body.noscroll {
   display: flex;
   flex-direction: column;
   vertical-align: middle;
-  width: 120px;
+  width: 150px;
   height: 150px;
 
   background: #9541ba;
