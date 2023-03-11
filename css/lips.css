@@ -447,8 +447,8 @@ body.noscroll {
   display: flex;
   flex-direction: column;
   vertical-align: middle;
-  width: 150px;
-  height: 150px;
+  width: 140px;
+  height: 160px;
 
   background: #9541ba;
   padding: 5px 8px;
