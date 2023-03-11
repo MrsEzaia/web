@@ -208,4 +208,42 @@
     font-size: 14px;
     line-height: 20px;
   }
+
+  /* SHUGARING */
+  .advantage__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .advantage__item {
+    display: flex;
+    width: 30%;
+  }
+
+  /* GALLERY */
+  .shugaring__item:nth-last-child(2) {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .gallery__img {
+    width: 50%;
+  }
+
+  /* BROWS */
+  .brow__item:nth-last-child(2) {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .gallery__img-brow {
+    display: flex;
+    width: 33%;
+    height: auto;
+  }
 }
