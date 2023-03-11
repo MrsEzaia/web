@@ -547,12 +547,12 @@ body.noscroll {
 
 .contacts {
   position: absolute;
-  left: 40%;
+  left: 50%;
   top: -20px;
   display: flex;
   flex-direction: column;
   vertical-align: middle;
-  width: 130px;
+  width: 140px;
   height: 160px;
 
   background: #9541ba;
