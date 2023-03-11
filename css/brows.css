@@ -445,7 +445,7 @@ body.noscroll {
 
 .contacts {
   position: absolute;
-  left: 60%;
+  left: 50%;
   top: -20px;
   display: flex;
   flex-direction: column;
