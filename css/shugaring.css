@@ -502,6 +502,8 @@ body.noscroll {
 
   background: #9541ba;
   padding: 5px 8px;
+
+  overflow: hidden;
 }
 
 .contacts__title {
