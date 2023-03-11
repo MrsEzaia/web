@@ -12,6 +12,10 @@ html {
   font-weight: 200;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .header {
   max-width: 100%;
   overflow: hidden;
@@ -313,6 +317,7 @@ body.noscroll {
   display: flex;
   background-image: url("/img/image/Background.svg") no-repeat center;
   height: auto;
+  overflow-x: hidden;
 }
 
 /* SERVICES */
