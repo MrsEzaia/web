@@ -351,6 +351,7 @@ body.noscroll {
 
 .vela__text {
   display: flex;
+  width: 90%;
 
   font-family: "Oswald";
   font-style: normal;
@@ -400,7 +401,6 @@ body.noscroll {
   font-weight: 200;
   font-size: 14px;
   line-height: 21px;
-
   color: #000000;
 }
 
@@ -443,7 +443,7 @@ body.noscroll {
 
 .contacts {
   position: absolute;
-  left: 70%;
+  left: 45%;
   top: -20px;
   display: flex;
   flex-direction: column;

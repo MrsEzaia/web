@@ -352,13 +352,11 @@ body.noscroll {
 
 .lips__text {
   display: flex;
-
   font-family: "Oswald";
   font-style: normal;
   font-weight: 200;
   font-size: 14px;
   line-height: 21px;
-
   color: #000000;
 }
 
