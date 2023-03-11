@@ -1,5 +1,8 @@
 @media (min-width: 768px) and (max-width: 1119px) {
   /* HEADER */
+  .header {
+    width: 100%;
+  }
   .header__list {
     padding: 15px 25px;
   }

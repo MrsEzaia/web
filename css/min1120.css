@@ -228,4 +228,55 @@
     font-size: 20px;
     line-height: 44px;
   }
+
+  .vela__item:first-child {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .vela__img:first-child {
+    width: 30%;
+  }
+
+  .vela__title {
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 36px;
+    line-height: 54px;
+    /* identical to box height */
+
+    color: #8b1ee1;
+  }
+
+  .vela__title-small {
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 71px;
+
+    color: #000000;
+  }
+
+  .vela__text {
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 32px;
+
+    color: #000000;
+  }
+
+  .vela-style {
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 32px;
+
+    color: #000000;
+  }
 }
