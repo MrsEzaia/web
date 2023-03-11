@@ -310,10 +310,10 @@ body.noscroll {
 
 /* VELA */
 .shugaring {
-  background-image: url(../img/image/backgr.svg);
-  background-position: center;
+  background-image: url(../img/image/flowers.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
   display: flex;
-  width: 100%;
   flex-direction: column;
   align-items: center;
 }
