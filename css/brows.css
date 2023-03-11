@@ -7,11 +7,6 @@
   font-weight: 200;
 }
 
-html {
-  font-family: "Oswald";
-  font-weight: 200;
-}
-
 .header {
   max-width: 100%;
   overflow: hidden;
@@ -319,11 +314,12 @@ body.noscroll {
 }
 
 .brow__title {
+  text-align: center;
   display: flex;
   font-family: "Oswald";
   font-style: normal;
   font-weight: 200;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 24px;
   /* identical to box height */
 
@@ -340,6 +336,7 @@ body.noscroll {
 
 .brow__item {
   display: flex;
+  overflow: hidden;
   flex-direction: column;
   align-items: center;
 }
@@ -404,6 +401,11 @@ body.noscroll {
   color: #000000;
 }
 
+.gallery__img-brow {
+  width: 277px;
+  height: auto;
+}
+
 /* WRITE */
 .link__write {
   display: flex;
@@ -443,7 +445,7 @@ body.noscroll {
 
 .contacts {
   position: absolute;
-  left: 70%;
+  left: 50%;
   top: -20px;
   display: flex;
   flex-direction: column;
