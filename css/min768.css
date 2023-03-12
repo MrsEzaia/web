@@ -7,7 +7,7 @@
     width: 100%;
   }
   .header__list {
-    padding: 15px 25px;
+    margin: 10px;
   }
   .item__social {
     display: flex;
