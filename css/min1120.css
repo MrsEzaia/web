@@ -1,4 +1,7 @@
 @media (min-width: 1120px) {
+  .navbar {
+    display: none;
+  }
   /* HEADER */
   .header__list {
     padding-top: 10px;
