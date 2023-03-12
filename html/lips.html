@@ -12,87 +12,97 @@
   </head>
   <header class="header">
     <ul class="header__list">
-      <li class="header__item">
-        <a href="#" class="item__burger">
-          <img src="../img/icon/burger_open.svg" alt="#" class="icon__burger" />
-        </a>
-        <aside class="menu">
-          <div class="menu__header">
-            <ul class="menu__header-list">
-              <li class="menu__header-item">
-                <a href="#" class="item__burger-close">
-                  <img
-                    src="../img/icon/burger_close.svg"
-                    alt="#"
-                    class="icon__burger-close"
-                  />
-                </a>
-              </li>
-              <li class="menu__header-item">
-                <a href="../index.html" class="logo"
-                  ><img src="../img/image/logo_small.svg" alt="#"
-                /></a>
-              </li>
-            </ul>
+      <li class="header__menu">
+        <nav class="navbar">
+          <div class="container">
+            <div class="navbar__wrap">
+              <div class="hamb">
+                <div class="hamb__field" id="hamb">
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                </div>
+              </div>
+              <ul class="menu" id="menu">
+                <li>
+                  <a href="./index.html" class="logo">
+                    <img src="./img/image/logo_small.svg" alt="" />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://dikidi.net/868876" class="navbar__link"
+                    ><img
+                      src="./img/icon/write.svg"
+                      alt="#"
+                      class="navbar__icon"
+                    /><span>Онлайн-запись</span></a
+                  >
+                </li>
+                <li>
+                  <a href="https://wa.me/79998710709" class="navbar__link"
+                    ><img
+                      src="./img/icon/whats.svg"
+                      alt="#"
+                      class="navbar__icon"
+                    /><span>Написать в Whatsapp</span></a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://t.me/AY_STUDIO_PM_BALASHIHA"
+                    class="navbar__link"
+                    ><img
+                      src="./img/icon/tg.svg"
+                      alt="#"
+                      class="navbar__icon"
+                    /><span>Написать в Telegram</span></a
+                  >
+                </li>
+                <li>
+                  <a href="https://vk.com/ay_studio_pm" class="navbar__link"
+                    ><img
+                      src="./img/icon/vk.svg"
+                      alt="#"
+                      class="navbar__icon"
+                    /><span>Написать в VK</span></a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.instagram.com/ay_studio_pm"
+                    class="navbar__link"
+                    ><img
+                      src="./img/icon/inst.svg"
+                      alt="#"
+                      class="navbar__icon"
+                    /><span>Написать в Instagram</span></a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="tel:+79998710709"
+                    target="_blank"
+                    class="navbar__link"
+                    >8 (999) 871 07 09</a
+                  >
+                </li>
+              </ul>
+            </div>
           </div>
-
-          <nav class="menu__nav">
-            <ul class="menu__nav-list">
-              <li class="menu__nav-item">
-                <a href="#" class="menu__nav-link">
-                  <img src="../img/icon/write.svg" alt="#" class="link__icon" />
-                  <span class="link__text"> Онлайн-запись</span></a
-                >
-              </li>
-              <li class="menu__nav-item">
-                <a href="#" class="menu__nav-link">
-                  <img src="../img/icon/whats.svg" alt="#" class="link__icon" />
-                  <span class="link__text">Написать в Whatsapp</span></a
-                >
-              </li>
-              <li class="menu__nav-item">
-                <a href="#" class="menu__nav-link">
-                  <img src="../img/icon/tg.svg" alt="#" class="link__icon" />
-                  <span class="link__text">Написать в Telegram</span></a
-                >
-              </li>
-              <li class="menu__nav-item">
-                <a href="#" class="menu__nav-link">
-                  <img src="../img/icon/vk.svg" alt="#" class="link__icon" />
-                  <span class="link__text">Написать в VK</span></a
-                >
-              </li>
-              <li class="menu__nav-item">
-                <a href="#" class="menu__nav-link">
-                  <img src="../img/icon/inst.svg" alt="#" class="link__icon" />
-                  <span class="link__text">Написать в Instagram</span></a
-                >
-              </li>
-            </ul>
-          </nav>
-
-          <div class="menu__footer">
-            <ul class="menu__footer-list">
-              <li class="menu__footer-item">
-                <a href="#" class="menu__footer-phone" target="_blank"
-                  >8 (999) 871 07 09</a
-                >
-              </li>
-            </ul>
-          </div>
-          <script src="../js/menu.js"></script>
-        </aside>
+        </nav>
+        <div class="popup" id="popup"></div>
+        <script src="./js/menu.js"></script>
       </li>
       <li class="header__item left">
         <a href="tel:+79998710709" target="_blank" class="link__icon">
-          <img src="../img/icon/call.svg" alt="#" class="icon big" />
+          <img src="./img/icon/call.svg" alt="#" class="icon big" />
 
           <span class="item__text">Позвонить</span>
         </a>
       </li>
       <li class="header__item left">
         <a href="https://dikidi.net/868876" target="_blank" class="link__icon">
-          <img src="../img/icon/write.svg" alt="#" class="icon big" />
+          <img src="./img/icon/write.svg" alt="#" class="icon big" />
 
           <span class="item__text">Онлайн-запись</span>
         </a>
@@ -103,7 +113,7 @@
           class="item__social"
           target="_blank"
         >
-          <img src="../img/icon/whats.svg" alt="#" class="icon" />
+          <img src="./img/icon/whats.svg" alt="#" class="icon" />
         </a>
       </li>
       <li class="header__item right">
@@ -112,7 +122,7 @@
           class="item__social"
           target="_blank"
         >
-          <img src="../img/icon/tg.svg" alt="#" class="icon" />
+          <img src="./img/icon/tg.svg" alt="#" class="icon" />
         </a>
       </li>
       <li class="header__item right">
@@ -121,7 +131,7 @@
           class="item__social"
           target="_blank"
         >
-          <img src="../img/icon/vk.svg" alt="#" class="icon" />
+          <img src="./img/icon/vk.svg" alt="#" class="icon" />
         </a>
       </li>
       <li class="header__item right">
@@ -130,15 +140,15 @@
           class="item__social"
           target="_blank"
         >
-          <img src="../img/icon/inst.svg" alt="#" class="icon" />
+          <img src="./img/icon/inst.svg" alt="#" class="icon" />
         </a>
       </li>
     </ul>
 
     <ul class="header__logo">
       <li class="img__logo">
-        <a href="../index.html" class="logo__link">
-          <img src="../img/image/logo.svg" alt="#" class="img" />
+        <a href="./index.html" class="logo__link">
+          <img src="./img/image/logo.svg" alt="#" class="img" />
         </a>
       </li>
     </ul>
