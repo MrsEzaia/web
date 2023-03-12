@@ -33,6 +33,10 @@ html {
   vertical-align: middle;
 }
 
+.left {
+  margin-right: 10px;
+}
+
 /* MENU */
 .container {
   width: 100%;
