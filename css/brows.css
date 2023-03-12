@@ -9,7 +9,6 @@
 
 .header {
   max-width: 100%;
-  overflow: hidden;
   display: flex;
   flex-direction: column;
 
@@ -24,12 +23,11 @@
 
 .header__list {
   display: flex;
-  padding: 0 16px;
+  height: 40px;
   justify-content: space-between;
   vertical-align: middle;
 }
 
-/* MENU */
 /* MENU */
 .container {
   width: 100%;
